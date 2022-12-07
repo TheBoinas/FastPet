@@ -102,8 +102,8 @@ header .logo{
     flex-direction: column;
     align-items: center;
     background-color: #74c69b;
-    width: 20%;
-    height: 40%;
+    width: 250px;
+    height: 450px;
     border-radius: 20px 20px;
     box-shadow: 2px 2px 3px rgb(0 0 0 / 51%);
     color: #000000;
@@ -114,8 +114,8 @@ header .logo{
 }
 
 .card img{
-    width: 20%;
-    height: 15%;
+    width: 250px;
+    height: 300px;
     border-radius: 20px 20px 0px 0px;
 }
 
