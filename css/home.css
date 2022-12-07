@@ -1,0 +1,265 @@
+:root{
+    --bg-body: #F5C8EE;
+    --color-font: black;
+    --color-button: #827397;
+    --color-card: #4D4C7D;
+}
+
+.container{
+    max-width: 830px;
+    margin: auto;
+}
+
+/*header*/
+
+a:hover{
+    background-color: #4D4C7D;
+}
+
+img{
+    float: left;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bf75f0;
+    
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration-line: var(--bg-body);
+    
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", sans-serif;
+    background-color: var(--bg-body);
+}
+
+header .logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+.logo h2{
+    color: var(--color-font);
+}
+
+.logo img{
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.section-1{
+    display: flex;
+    margin-top: 100px;
+}
+
+.action-title{
+    font-size: 40px;
+    color: var(--color-font);
+}
+
+.introduct{
+    background-color: var(--color-button);
+    display: inline-block;
+    padding: 15px 70px;
+    border-radius: 50px;
+    color: var(--color-font);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ebook img{
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 180px;
+}
+
+.section-2 h2{
+    color: var(--color-font);
+    text-transform: uppercase;
+    text-align: center;
+  
+
+}
+.cards{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 78px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-card);
+    width: 220px;
+    margin-left: 5px;
+    height: 180px;
+    border-radius: 10px;
+    color: var(--color-font);
+} 
+
+.card img{
+    width: 65px;
+    height: 65px;
+}
+
+.vm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: var(--color-button);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--color-font);
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+.button-2{
+    display: inline-block;
+    background-color: var(--color-button);
+    color: var(--color-font);
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.section-3 h2{
+    font-size: 45px;
+    color: var(--color-font);
+}
+
+.section-3 p{
+    color: var(--color-font);
+    margin-top: -25px;
+}
+
+footer{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#A51EA8;
+    background-color:#F15DF5;
+    height: 120px;
+    padding-bottom: 40px;
+    border-radius: 20px 20px;
+    
+}
+
+.button-footer{
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: #F15DF5;
+    border-radius: 50px;
+    color: var(--color-font);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -19px;
+    
+}
+
+footer p{
+    color: var(--color-font);
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width:420px){
+    .section-1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .ebook img{
+        margin-right: 0px;
+    }
+
+    .action-title{
+        align-items: center;
+    }
+
+    .action-title h2{
+        font-size: 40px;
+        text-align: center;
+        font-size: 30px;
+        color: var(--color-font);
+    }
+
+    .button{
+        margin-top: 20px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+
+    .section-3 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .section-3 p{
+        font-size: 15px;
+        
+    }
+
+}
+
+
+

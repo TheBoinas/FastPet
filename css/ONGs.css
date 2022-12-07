@@ -1,0 +1,150 @@
+:root{
+    --bg-body: #f09ee3;
+    --color-font: #A020F0;
+    --color-button: #827397;
+    --color-card: #4D4C7D;
+}
+
+.container{
+    max-width: 1255px;
+    margin: auto;
+}
+
+/*header*/
+
+a:hover{
+    background-color: #C5E0FF;
+    border-radius: 10px, 10px, 10px, 10px;
+}
+
+img{
+    float: left;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9ec7f7;
+    
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration-line: var(--bg-body);
+    
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Arimo", sans-serif;
+    background-color: #bde0fe;
+}
+
+header .logo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
+.logo h2{
+    color: var(--color-font);
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.section-2 h2{
+    background-color: #a2d2ff;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 50px;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a2d2ff;
+    width: 1255px;
+    height: 1000px;
+    border-radius: 20px 20px;
+    color: #000000;
+    box-shadow: 5px 5px 7px rgb(0 0 0 / 51%);
+    margin-top: 30px;
+} 
+
+.card img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+footer{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #a2d2ff;
+    background-color:#a2d2ff;
+    height: 120px;
+    border-radius: 20px 20px;
+    padding-bottom: 40px;
+}
+
+.button-footer{
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: #a2d2ff;
+    border-radius: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -19px;
+}
+
+footer p{
+    color: black;
+    font-size: 15px;
+    margin-top: 30px;
+}
